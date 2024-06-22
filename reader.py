@@ -1,7 +1,13 @@
 from bs4 import BeautifulSoup
 
-with open('pg59134-h/pg59134-images.html') as file:
+with open('the-historian\'s-history-of-the-world-v7.html') as file:
     soup = BeautifulSoup(file, 'html.parser')
 
 text = soup.get_text()
-print(text)
+data = [text.strip() for text in text.split("\n\n") if text]
+
+for i in range(0, len(data)):
+    print(f"DATA[{i}]: {data[i]}")
+    print("\n")
+
+#print(text)
