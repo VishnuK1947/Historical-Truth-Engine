@@ -1,6 +1,7 @@
 from llama_index.core import SimpleDirectoryReader
 
-def documents_creater:
+# conversion of books into a set of documents
+def documents_creater():
     loader = SimpleDirectoryReader(
         input_dir="./books/",
         recursive=True,
@@ -12,3 +13,4 @@ def documents_creater:
     return documents
 
 documents = documents_creater()
+print(documents[1])
