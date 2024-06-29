@@ -1,2 +1,2 @@
 # Historical-Truth-Engine
-AI to verify historical claims and provide citations.
+BUILDING AI to verify historical claims and provide citations.
