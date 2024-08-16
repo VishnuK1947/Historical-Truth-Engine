@@ -13,4 +13,3 @@ def documents_creater():
     return documents
 
 documents = documents_creater()
-print(documents[1])

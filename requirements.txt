@@ -1,1 +1,3 @@
 dvc
+pymongo
+python-dotenv
